@@ -35,7 +35,7 @@ html{
 }
 
 #navbar > header{
-  color: fbfefc;
+  color: #fbfefc;
   border-bottom: 2px solid #ffe900;
   padding-bottom: 10px;
   text-align: center;
@@ -90,14 +90,69 @@ ul {
 .caption > a {
   color: #1e1d2b;
   text-decoration: underline;
+  font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   #navbar {
-    width: 150px;
+    width: 25%;
   } 
   #main-doc {
-    width: 500px;
-    margin-left: 200px;
+    width: 78%;
+    margin-left: 100px;
+  }
+
+  #book {
+    width: 75%;
+    height: auto;
+  }
+  a {
+    font-size: 12px;
+  }
+  .main-section > p {
+    margin-left: 10px;
+    text-align: left;
+  }
+  ul {
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 17px;
+  }
+  .caption > a {
+    color: #1e1d2b;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 655px) and (min-width: 401px) {
+  #navbar {
+    width: 20%;
+  } 
+  #main-doc {
+    width: 75%;
+    margin-left: 120px;
+  }
+
+  #book {
+    width: 75%;
+    height: auto;
+  }
+  a {
+    font-size: 12px;
+  }
+  .main-section > p {
+    margin-left: 10px;
+    text-align: left;
+  }
+  ul {
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 17px;
+  }
+  .caption > a {
+    color: #1e1d2b;
+    text-decoration: underline;
+    font-size: 20px;
   }
 }
