@@ -175,6 +175,7 @@ td {
 th {
   background-color: #00c000;
   color: #fbfefc;
+  padding: 5px;
 }
 table {
   max-width: 85%;
