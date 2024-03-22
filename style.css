@@ -81,6 +81,16 @@ ul {
   font-size: 17px;
 }
 
+ol {
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+ol > li {
+  padding: 0.5%;
+}
+
+
 .book-img {
   display: flex;
   justify-content: center;
@@ -154,6 +164,7 @@ ul {
     font-style: italic;
     font-size: 17px;
   }
+
   .caption > a {
     color: #1e1d2b;
     text-decoration: underline;
